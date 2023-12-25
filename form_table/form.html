@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h3>Thêm nhân viên mới</h3>
+        <div>
+            <lable for="userName">Họ và tên</lable>
+            <input required id="userName" type="text"/>
+            
+        </div>
+        <br>
+        <div>
+            <lable for="dateOfBirth">ngày sinh</lable>
+            <input id="dateOfBirth"type="date"/>
+        </div>
+        <br>
+        <div>
+            <lable for="monthAndYear">tháng và năm</lable>
+            <input id="monthAndYear"type="month"/>
+        </div>
+        <br>
+        <div>
+            <lable for="time">thời gian</lable>
+            <input id="time"type="time"/>
+        </div>
+        <br>
+        <div>
+            <lable for="">giới tính</lable>
+            <input name="gender" id=""type="radio"/> Nam 
+            <input name="gender" id=""type="radio"/> Nữ 
+            <input name="gender" id=""type="radio"/> khác
+        </div>
+        <br/>
+        <div>
+            <lable for="email">email</lable> 
+            <input required id="email" type="text"/>
+        </div>
+        <br>
+        <div>
+            <label for="pass">Mật khẩu</label>
+            <input required id="pass" type="password" minlength="8" />
+        </div>
+        <br>
+        <div>
+            <lable for="">giới thiệu bản thân</lable> 
+            <textarea name="" id="" cols="30" row="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="picture">Hình ảnh</label>
+            <input type="file" id="picture" accept="image/*">
+        </div>
+        <br>
+        <div>
+            <lable for="">Địa chỉ</lable>
+            <textarea name="" id="" cols="30" row="10"></textarea>
+        </div> 
+        <br>
+        <div>
+            <lable for="">sở thích</lable>
+            <input type="checkbox" /> đi chơi
+            <input type="checkbox" /> đá bóng
+            <input type="checkbox" /> chơi game
+        </div>
+        <br> 
+        <div>
+            <lable for="city">thành phố</lable>
+            <select id="city" multiple>
+                <option value="" >Hà Nội</option>
+                <option value="" >Sơn La</option>
+                <option value="" >Bắc Yên</option>
+            </select>
+        </div> 
+        <br>
+        <div>
+            <input type="submit" value="gửi"/>
+            <input type="reset" value="làm mới"/>
+        </div>
+    </form>
+    <form>
+        <div>
+            <label for="">Tiến độ hoàn thành công việc</label>
+            <input type="range">
+        </div>
+        <div>
+            <lable for="">Năm kinh nghiệm</lable> 
+            <input id="" type="number" min="1" max="10"/>
+        </div>
+        <div>
+            <lable for="search">tìm kiếm</lable> 
+            <input required id="search" type="search"/>
+        </div>
+        <div>
+            <lable for="color">màu ưa thích</lable> 
+            <input required id="color" type="color"/>
+        </div>
+        <div>
+            <input type="submit" value="gửi"/>
+            <input type="reset" value="làm mới"/>
+            <input type="button" value="hủy"/>
+
+        </div>
+    </form>
+</body>
+</html>
